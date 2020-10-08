@@ -1,0 +1,17 @@
+.footer{
+    background: green;
+    height: 500px;
+}
+
+.footer:hover{
+    background: blueviolet;
+}
+
+li:nth-child(3n){
+    color:orange;
+}
+
+li::after{
+    content:" after";
+}
+
